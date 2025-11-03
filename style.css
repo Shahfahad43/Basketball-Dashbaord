@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  gap: 20px;
+  width: 100vw;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.board {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(6, 58, 75);
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.score-container {
+  background-color: black;
+  font-size: 50px;
+  margin-block: 10px;
+  padding: 20px;
+}
+
+.points-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 10px;
+}
+
+.points-container button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.points-container button:hover {
+  cursor: pointer;
+}
+
+.reset-btn {
+  background-color: red;
+  padding: 5px 10px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
